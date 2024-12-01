@@ -1,9 +1,15 @@
-<script setup>
-
+<script>
+  export default {
+      data() {
+        return {
+            name: 'Comeing Soon',
+        };
+      },
+  };
 </script>
 
 <template>
-  <h1>Job List Update</h1>
+  <h1>{{name}}</h1>
 </template>
 
 <style scoped>
