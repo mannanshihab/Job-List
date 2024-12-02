@@ -1,17 +1,10 @@
-<script>
-  export default {
-      data() {
-        return {
-            name: 'Comeing Soon',
-        };
-      },
-  };
+<script setup>
+  import Navber from './components/Navber.vue';
+  import Hero from './components/Hero.vue';
 </script>
-
 <template>
-  <h1>{{name}}</h1>
+  <Navber />
+  <Hero />
 </template>
 
-<style scoped>
 
-</style>
